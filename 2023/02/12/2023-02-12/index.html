@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="之前有篇文章介绍了今年需要做的一些事情，年前年后也算是解决了一些。 部署基于notion的博客 明年要出国，之前有打算开一个博客，试着写一写英语博客，趁着年后就实现了一下 Hi, I’m AsyncX. Here is my archieves. 由于当时学生优惠的服务器明年就到期了，此项目也是实时抓取notion界面再渲染的node项目，所以写作重心我还是选择放在这个博客，因此把博客的很多内容打">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2023年，一些回顾">
+<meta property="og:url" content="https://hi.asyncx.top/2023/02/12/2023-02-12/index.html">
+<meta property="og:site_name" content="AsyncX&#39;s Archive">
+<meta property="og:description" content="之前有篇文章介绍了今年需要做的一些事情，年前年后也算是解决了一些。 部署基于notion的博客 明年要出国，之前有打算开一个博客，试着写一写英语博客，趁着年后就实现了一下 Hi, I’m AsyncX. Here is my archieves. 由于当时学生优惠的服务器明年就到期了，此项目也是实时抓取notion界面再渲染的node项目，所以写作重心我还是选择放在这个博客，因此把博客的很多内容打">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jazzy-praline-dbe3ad.netlify.app/images/202302121208005.png">
+<meta property="og:image" content="https://jazzy-praline-dbe3ad.netlify.app/images/202302121247585.jpeg">
+<meta property="article:published_time" content="2023-02-12T01:02:00.000Z">
+<meta property="article:modified_time" content="2023-11-06T05:02:50.454Z">
+<meta property="article:author" content="AsyncX">
+<meta property="article:tag" content="闲言碎语">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jazzy-praline-dbe3ad.netlify.app/images/202302121208005.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/logo.gif">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/logo.gif" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.gif">
+        
+      
+    
+    <!-- title -->
+    <title>2023年，一些回顾</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/atom.xml" title="AsyncX&#39;s Archive" type="application/atom+xml" />
+    
+	<!-- mathjax -->
+	
+
+<!-- 访问统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQWTGKC5EW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SQWTGKC5EW');
+</script>
+<meta name="generator" content="Hexo 6.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/tags/">Tag</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/search/">Search</a></li><!--
+     --><!--
+       --><li><a href="/atom.xml">RSS</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2023/02/15/2023-02-15/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2022/08/10/2022-08-10/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://hi.asyncx.top/2023/02/12/2023-02-12/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&text=2023年，一些回顾"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&is_video=false&description=2023年，一些回顾"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2023年，一些回顾&body=Check out this article: https://hi.asyncx.top/2023/02/12/2023-02-12/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&name=2023年，一些回顾&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://hi.asyncx.top/2023/02/12/2023-02-12/&t=2023年，一些回顾"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">部署基于notion的博客</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">换了桌子</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E8%AE%BE%E5%A4%87%E5%88%87%E6%8D%A2"><span class="toc-number">2.1.</span> <span class="toc-text">多设备切换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%90%86%E7%BA%BF"><span class="toc-number">2.2.</span> <span class="toc-text">理线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%A2%9D%E5%A4%96%E9%85%8D%E7%BD%AE"><span class="toc-number">2.3.</span> <span class="toc-text">一些额外配置</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        2023年，一些回顾
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">AsyncX</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2023-02-12T01:02:00.000Z" itemprop="datePublished">2023-02-12</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/" rel="tag">闲言碎语</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>之前有篇文章介绍了今年需要做的一些事情，年前年后也算是解决了一些。</p>
+<h1>部署基于notion的博客</h1>
+<p>明年要出国，之前有打算开一个博客，试着写一写英语博客，趁着年后就实现了一下<br>
+<a target="_blank" rel="noopener" href="https://notion.asyncx.top/">Hi, I’m AsyncX. Here is my archieves.</a><br>
+由于当时学生优惠的服务器明年就到期了，此项目也是实时抓取notion界面再渲染的node项目，所以写作重心我还是选择放在这个博客，因此把博客的很多内容打算给修改一下。</p>
+<h1>换了桌子</h1>
+<p>之前的桌子很小，不稳，尺寸是<code>130*60*70</code><br>
+<img src="https://jazzy-praline-dbe3ad.netlify.app/images/202302121208005.png" alt=""><br>
+为了放下MacBook需要拔高主显示器的高度，这样做会让屏幕挂灯在开启时有剧烈的反光。<br>
+年后和朋友们去宜家量了尺寸，购入了乌斯佩的电竞桌，尺寸是<code>170*80*高度可调</code><br>
+<img src="https://jazzy-praline-dbe3ad.netlify.app/images/202302121247585.jpeg" alt=""></p>
+<h2 id="多设备切换">多设备切换</h2>
+<p>因为居家我只使用这一套键鼠,我用绿联的usb3.0转换器接入了键盘鼠标和一个固态,可以一键切换设备.在用win的时候只需要将悬臂拉起转过去即可,不会遮挡桌面区域.之前桌子抽屉内的物品买了一些小盒子放在购置的柜子中.</p>
+<h2 id="理线">理线</h2>
+<p>这个桌子后面的网状结构下面是一个弹力线编制的布兜,线从桌面和网状结构中间穿过,在下方接入电源.因此不用怎么理线.<br>
+键盘是NIZplum84,资金不足我买的有线.鼠标是delux,同学送的,3390的传感器,60g不到.手机供电是购买了宜家的无线充电器,功率只有5W.<br>
+关于理线我也没什么好的心得,我更倾向于先把单设备的所有线给缠在一起,然后理到桌子下面,再和其他设备的线分类缠好,最后接入电源.</p>
+<h2 id="一些额外配置">一些额外配置</h2>
+<p>朋友为了在家组mesh要走了华为AX3pro路由,给我了一个Glinet的AXT1800,自带OpenWrt,家里有公网,之前一直用来跑Minecraft服务器和当媒体服务器,后来不用就关了,4T机械也没了用处.AXT1800有一个usb3.0,用硬盘盒接入后SMB连接存了一些照片和电影.缺点是功率没有AX3pro大,主卧会收不到信号.</p>
+
+  </div>
+</article>
+
+
+    <div class="blog-post-comments">
+        <div id="utterances_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/tags/">Tag</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+         
+          <li><a href="/atom.xml">RSS</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">部署基于notion的博客</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">换了桌子</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E8%AE%BE%E5%A4%87%E5%88%87%E6%8D%A2"><span class="toc-number">2.1.</span> <span class="toc-text">多设备切换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%90%86%E7%BA%BF"><span class="toc-number">2.2.</span> <span class="toc-text">理线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%A2%9D%E5%A4%96%E9%85%8D%E7%BD%AE"><span class="toc-number">2.3.</span> <span class="toc-text">一些额外配置</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://hi.asyncx.top/2023/02/12/2023-02-12/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&text=2023年，一些回顾"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&is_video=false&description=2023年，一些回顾"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2023年，一些回顾&body=Check out this article: https://hi.asyncx.top/2023/02/12/2023-02-12/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&title=2023年，一些回顾"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://hi.asyncx.top/2023/02/12/2023-02-12/&name=2023年，一些回顾&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://hi.asyncx.top/2023/02/12/2023-02-12/&t=2023年，一些回顾"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2019-2023
+    <!-- AsyncX -->
+    <div id="busuanzi_container_site_pv" style='display:none'>| <span id="busuanzi_value_site_pv"></span> views.</div>
+
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/tags/">Tag</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/search/">Search</a></li><!--
+     --><!--
+       --><li><a href="/atom.xml">RSS</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+    <script type="text/javascript">
+      var utterances_repo = 'A5yncX/A5yncX.github.io';
+      var utterances_issue_term = 'pathname';
+      var utterances_label = 'Comment';
+      var utterances_theme = 'preferred-color-scheme';
+
+      (function(){
+          var script = document.createElement('script');
+
+          script.src = 'https://utteranc.es/client.js';
+          script.setAttribute('repo', utterances_repo);
+          script.setAttribute('issue-term', 'pathname');
+          script.setAttribute('label', utterances_label);
+          script.setAttribute('theme', utterances_theme);
+          script.setAttribute('crossorigin', 'anonymous');
+          script.async = true;
+          (document.getElementById('utterances_thread')).appendChild(script);
+      }());
+  </script>
+
+  </body>
+  <div class="starr">
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+  </div>
+</html>

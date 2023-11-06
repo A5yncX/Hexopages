@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AsyncX&#39;s Archive</title>
+  
+  
+  <link href="https://hi.asyncx.top/atom.xml" rel="self"/>
+  
+  <link href="https://hi.asyncx.top/"/>
+  <updated>2023-11-06T05:02:50.458Z</updated>
+  <id>https://hi.asyncx.top/</id>
+  
+  <author>
+    <name>AsyncX</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>熵,生命</title>
+    <link href="https://hi.asyncx.top/2023/11/03/2023-11-03/"/>
+    <id>https://hi.asyncx.top/2023/11/03/2023-11-03/</id>
+    <published>2023-11-03T13:11:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>万神殿的第二季的结尾我没想到可以如此跨度。这部动画改编自刘宇昆的小说《奇点移民》中的几个短篇，不过相差甚远，可以当作新故事看。动画中智能（不能称之为人工了）对人类的描述是这样的：<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202311031314446.png" alt=""><br><code>Low-entropy</code>低熵,通常表示一种相对较高的信息含量或不确定性。</p><p>熵是一个衡量信息的量化指标，它用来表示一个随机变量或一组数据的不确定性程度。具体来说：</p><ul><li>高熵：表示信息的不确定性较高，也就是说，有更多的信息或者更多的随机性。例如，一个具有高熵的随机数序列，每个数字都是随机的，没有明显的模式，因此包含了大量的信息。</li><li>低熵：表示信息的不确定性较低，也就是说，有更少的信息或者更多的可预测性。例如，一个包含大量重复的模式的序列具有低熵，因为你可以根据先前的数据来预测接下来的数据。<br>低熵通常与<strong>高度有序、可预测的情况相关</strong>，而高熵通常与随机性和不可预测性相关。这些概念在信息理论、数据压缩、密码学等领域具有重要的应用。<br>在2016年和2017年人们和AlphaGo下棋的时候,有这样一段描述.</li></ul><p>No.1 未使用人类棋谱训练的AlphaGo<br>No.2 使用人类棋谱训练的AlphaGo<br>No.3 人类所能达到的围棋水平高度</p><p>GPT是这样回答的:<br>人类的可预测性相对较强（低熵）是因为人类行为和决策通常受到一系列模式、规则、社会文化、道德准则和经验的影响。这些因素使得人类的行为更容易预测，相对于完全随机的过程，人类行为有更低的熵。<br>以下是一些原因：</p><ol><li>社会和文化影响：人们生活在社会和文化体系中，这些体系规范了他们的行为和决策。社会习惯、价值观、法律、道德准则等都对人类行为产生影响，使得人们更倾向于遵循一定的规则和模式。</li><li>学习和经验：人们通过学习和经验积累知识，从中获得对不同情境的理解。这些知识和经验使人们更有能力做出更明智的决策和更好的预测，因为他们可以基于以往的经验来解决问题。</li><li>自我控制和目标导向：大多数人类行为是目标导向的，人们通常会追求某种形式的目标或利益。这种目标导向性使得人们更容易预测，因为他们会采取行动来实现他们的目标。</li></ol><hr><p>熵与生命起源和进化之间的关系研究始于20世纪初。1910年，美国历史学家亨利·亚当斯印刷并向大学图书馆和历史学教授分发了小册子《致美国历史教师的一封信》<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，提出了一种基于热力学第二定律和熵原理的历史理论。</p><p>1944年出版的书《生命是什么？<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>》的作者，诺贝尔奖获得者物理学家欧文·薛定谔的研究刺激了该领域的进一步研究。薛定谔在他的书中最初指出，生命以负熵为食，有时也称为负熵，但在后来的版本中，他根据抱怨纠正了自己，并指出真正的来源是自由能。最近的工作将讨论限制在吉布斯自由能上，因为地球上的生物过程通常发生在恒定的温度和压力下，例如在大气中或在海洋底部，但对于个体生物体而言，不会在短时间内跨越这两种情况。</p><p>2013年，阿苏阿-布斯托斯和维加认为，无论地球上还是宇宙其他地方可能存在的生命形式类型，所有生命形式都应该具有这样的共同属性：以牺牲从生命体中获得的自由能为代价来降低其内部熵。周围环境。由于熵可以量化系统中的无序程度，因此任何设想的生命形式都必须比其直接支持环境具有更高程度的有序性。<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>这里我的理解是环境内迭代导致的有序性和可预测性。<br>关于熵和生物体之间关系的想法激发了许多背景下的假设和推测，包括心理学、信息论、生命起源和外星生命的可能性,感兴趣的读者可以自主了解。</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>Adams, Henry. (1910). A Letter to American Teachers of History.&nbsp;<a href="https://books.google.com/books?id=gaLdOOzuiKAC&amp;pg=PA1&amp;dq=A+Letter+to+American+Teachers+of+History#PPA10,M1">Google Books</a>,&nbsp;<a href="https://archive.org/details/alettertoamerica00adamuoft">Scanned PDF</a>. Washington. <a href="#fnref1" class="footnote-backref">↩︎</a></p></li><li id="fn2" class="footnote-item"><p>Erwin Schrödinger (1944),&nbsp;What Is Life? and Other Scientific Essays <a href="https://archive.org/details/whatislifeothers00schr">https://archive.org/details/whatislifeothers00schr</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p></li><li id="fn3" class="footnote-item"><p>Vega-Martínez, Cristian; Azua-Bustos, Armando (2013). “The potential for detecting ‘life as we don’t know it’ by fractal complexity analysis”.&nbsp;<em>International Journal of Astrobiology</em>.&nbsp;<strong>12</strong>&nbsp;(4): 314–320.&nbsp;<a href="https://en.wikipedia.org/wiki/Bibcode_(identifier)" title="Bibcode (identifier)">Bibcode</a>:<a href="https://ui.adsabs.harvard.edu/abs/2013IJAsB..12..314A">2013IJAsB…12…314A</a>.&nbsp;<a href="https://en.wikipedia.org/wiki/Doi_(identifier)" title="Doi (identifier)">doi</a>:<a href="https://doi.org/10.1017%2FS1473550413000177">10.1017/S1473550413000177</a>.&nbsp;<a href="https://en.wikipedia.org/wiki/Hdl_(identifier)" title="Hdl (identifier)">hdl</a>:<a href="https://hdl.handle.net/10533%2F131814">10533/131814</a>.&nbsp;<a href="https://en.wikipedia.org/wiki/ISSN_(identifier)" title="ISSN (identifier)">ISSN</a>&nbsp;<a href="https://www.worldcat.org/issn/1475-3006">1475-3006</a>.&nbsp;<a href="https://en.wikipedia.org/wiki/S2CID_(identifier)" title="S2CID (identifier)">S2CID</a>&nbsp;<a href="https://api.semanticscholar.org/CorpusID:122793675">122793675</a>. <a href="#fnref3" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;万神殿的第二季的结尾我没想到可以如此跨度。这部动画改编自刘宇昆的小说《奇点移民》中的几个短篇，不过相差甚远，可以当作新故事看。动画中智能（不能称之为人工了）对人类的描述是这样的：&lt;br&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/A5ync</summary>
+      
+    
+    
+    
+    
+    <category term="闲言碎语" scheme="https://hi.asyncx.top/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何使用Mac玩双人成行</title>
+    <link href="https://hi.asyncx.top/2023/11/02/2023-11-02/"/>
+    <id>https://hi.asyncx.top/2023/11/02/2023-11-02/</id>
+    <published>2023-11-02T19:11:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<h1>运行环境</h1><ol><li>采用 Macbook Pro M1 Sonoma</li><li>运行最新版本的 Crossover</li><li><a href="https://haxmac.cc/crossover-mac/">外置硬盘</a>上存储着 Crossover 的"容器"（Bottle）。</li></ol><h2 id="下载和破解">下载和破解</h2><p>首先，下载 <a href="https://haxmac.cc/crossover-mac/">Crossover</a> 并按照额外文件夹中的教程完成破解步骤。</p><h2 id="安装-Steam">安装 Steam</h2><p>在 Crossover 中，点击左下角的“安装”按钮，然后选择安装 Steam。安装过程如下图所示：<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202311021949146.png" alt="安装Steam"></p><h2 id="安装双人成行">安装双人成行</h2><p>等待下载完成后，EA 客户端将自动安装在 Crossover 容器中。</p><h2 id="安装-EA">安装 EA</h2><p>如果在之前的步骤中安装 EA 失败，无法启动等问题，只需点击“安装”按钮，然后搜索“EA app” 进行二次安装，如下图所示：<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202311021952686.png" alt="安装EA"></p><h2 id="可选-将游戏存储在外置SSD中">(可选)将游戏存储在外置SSD中</h2><p>默认情况下，Crossover Mac 和 Crossover Games Mac 会在 “/Users/(用户名)/Library/Application Support/Crossover (Games)/Bottles” 目录中查找容器。你可以更改 Crossover 查找容器的位置，并将其设置在新位置。要实现这一点，请按以下步骤进行：</p><ol><li>首先，打开 <code>~/Library/Application Support/CrossOver/Bottles</code>。</li><li>将你之前下载的 Steam 容器复制并粘贴到你的目标路径中。</li><li>接下来，打开终端并输入以下命令：</li></ol><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.codeweavers.CrossOver BottleDir &lt;path&gt;</span><br></pre></td></tr></tbody></table></figure><p><code>&lt;path&gt;</code> 是你希望 Crossover 搜索的新目录位置。从 Finder 中拖拽文件夹是自动输入文件夹路径的便捷方法。<br>4. 重启 Crossover 后，即可使用新的容器目录。</p><h1>安装中遇到的问题</h1><ol><li>下载双人成行到验证资源时卡在 44.6GB/44.8GB 时降速。<br>请将 Steam 下载地区设置为中亚并清空下载缓存，然后重新下载。</li><li>启动失败。<br>启动时间可能较长，最好在启动时不进行其他电脑操作。</li><li>在双人游戏时，有一方的手柄无法使用。<br>你可以尝试在蓝牙设置中断开并忽略无法使用的手柄，然后重新连接蓝牙设备。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;运行环境&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;采用 Macbook Pro M1 Sonoma&lt;/li&gt;
+&lt;li&gt;运行最新版本的 Crossover&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://haxmac.cc/crossover-mac/&quot;&gt;外置硬盘&lt;/a&gt;上存储着 </summary>
+      
+    
+    
+    
+    
+    <category term="Mac" scheme="https://hi.asyncx.top/tags/Mac/"/>
+    
+    <category term="Games" scheme="https://hi.asyncx.top/tags/Games/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决手柄无法在Macbook玩星露谷的问题</title>
+    <link href="https://hi.asyncx.top/2023/10/25/2023-10-26/"/>
+    <id>https://hi.asyncx.top/2023/10/25/2023-10-26/</id>
+    <published>2023-10-25T21:10:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>这段时间和女朋友在一起玩星露谷,因为考试,来的时候只带了mac…<br>言归正传,由于valve的支持问题,导致星露谷的手柄文件过新,steam for mac无法读取导致的,在星露谷论坛查找后找到问题所在:</p><p><a href="https://forums.stardewvalley.net/threads/help-controller-not-working-in-stardew-on-mac.5452/#post-106170">[HELP] Controller not working in Stardew on Mac</a></p><p><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202310252159264.png" alt=""><br>我使用了这个老哥的方法,成功使用了手柄.<br>我的运行环境为</p><ul><li>MacBook Pro 2021 M1Pro Sonoma</li><li>xBox手柄(XSX/XSS均尝试可行)</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这段时间和女朋友在一起玩星露谷,因为考试,来的时候只带了mac…&lt;br&gt;
+言归正传,由于valve的支持问题,导致星露谷的手柄文件过新,steam for mac无法读取导致的,在星露谷论坛查找后找到问题所在:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://forums.</summary>
+      
+    
+    
+    
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+    <category term="Games" scheme="https://hi.asyncx.top/tags/Games/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>首考PTE的一些感受</title>
+    <link href="https://hi.asyncx.top/2023/10/25/2023-10-25/"/>
+    <id>https://hi.asyncx.top/2023/10/25/2023-10-25/</id>
+    <published>2023-10-25T10:09:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天首考了PTE,过了可以申请的分,写个博客记录一下备考期间遇到的问题.</p><h1>背景和总结</h1><p>雅思首考5.5,参考网上的提分对比图<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202310251559599.png" alt=""><br>如果我想要达到6.5需要1~2月,而且口语方面是很难在短时间有一个很大的突破的.第一次考雅思的确有一些不好的回忆,我朋友考了3次雅思3次PTE才达到需要的分数.综上,在问了一下朋友和做了一些攻略的背景下我直接选择转考PTE.<br>PTE和IELTS相比,在我自己看来差距体现在:</p><ol><li>机考内容更好掌握一点</li><li>题库内容固定–可以从猩际/多墨/萤火虫/羊驼等app和网站获取到题库</li><li>相比雅思收益更大<br>为什么说收益更大,在我的认知里雅思是付出不一定会得到与之匹配的回报的.最大的因素就是口语.即使它有题库.</li></ol><h1>初期准备</h1><p>上网了解各种题型,这里我也自己总结了一下<br><a href="https://asyncx-bucket1.oss-cn-nanjing.aliyuncs.com/githubblog/PTE.png">题型详情下载</a><br>初期准备就完全在这一个图里,你需要重点关注的题型和目标分数需要达到的正确率,没有打水印,好自为之.</p><h1>复习过程</h1><p>从考完雅思到考PTE时间大概在1个月,有效学习时间大概是半个月,平均每天3h左右.<br>前期打印出wfd读,默写和标注生词,朗读RA,RS.这里建议大家自己从网上学习一下时间规划,我只提一点:无论如何每天都要坚持RS.<br>RA前期力求达到70+,后期有点疲于练习了,就在考前三天才开始读.<br>DI和RL的模板一定要读熟!建议你在生活中看到什么景的时候就下意识的开始想如果这是DI你要怎么说.<br>我本人听力是比较好的,SST和RS也没有怎么联系.</p><h1>用到的工具</h1><ol><li>使用萤火虫+iPad(MarginNote3)练习WFD.这是我意想不到最方便的,也是我最满意的,如果有人感兴趣我会详细介绍.</li><li>使用多墨练习FIB</li><li>使用猩际练习RA,RS.</li></ol><h1>考试当日</h1><ol><li>考点是苏州,实话实说设备质量堪忧.薄膜键盘有点老化,回弹很慢,输入内容到屏幕上也是有一点延迟.口语期间大家的声音很大,本来说是要发耳塞的但是不知道怎么回事没给我发,就没法像网上说的那样带耳塞再带耳机.</li><li>我是吃饭前就去考场看了一下,吃饭后提前1h再去和考场人员聊了会天,直接选了网上说的没有踩雷的号(1箱1机位,号码一致).</li><li>我的考试时间大概在100min,检查完就下一道(算是坏习惯,一直掌握不好时间,第一个出考场.)</li><li>15:40考完17:35收到邮件<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202310251656391.png" alt=""></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;昨天首考了PTE,过了可以申请的分,写个博客记录一下备考期间遇到的问题.&lt;/p&gt;
+&lt;h1&gt;背景和总结&lt;/h1&gt;
+&lt;p&gt;雅思首考5.5,参考网上的提分对比图&lt;br&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/A5yncX/img/images</summary>
+      
+    
+    
+    
+    
+    <category term="IELTS" scheme="https://hi.asyncx.top/tags/IELTS/"/>
+    
+    <category term="出国" scheme="https://hi.asyncx.top/tags/%E5%87%BA%E5%9B%BD/"/>
+    
+    <category term="PTE" scheme="https://hi.asyncx.top/tags/PTE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么在阻止我们走向主观来说更好的生活？</title>
+    <link href="https://hi.asyncx.top/2023/09/23/2023-09-23/"/>
+    <id>https://hi.asyncx.top/2023/09/23/2023-09-23/</id>
+    <published>2023-09-23T23:05:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个博客创建于2023年5月23日，我在哲学类的订阅中偶然看到了关于"自我"的主题。而今天，正值我的大学百年校庆，我和一些舍友相聚，谈论各种话题，尽管有些话题看似无关紧要，但我决定将其重新梳理并更新博客。</p><p>我的室友们正在面临情感问题，类似于“如果你遇到更合适的异性，是否应该离开现有的伴侣？”我的另一位室友对我说：“我们现在是旁观者，当真正面对这种情况时，可能会感到更加困惑。” 这让我开始反思，意识到我在思考问题时将自己的观念带入其中。这也使我明白了为什么辩论赛存在，之前我一直认为辩论赛的目的是讨论某一事物的两面性。我曾坚信在结束一段感情之前开始新的感情是不道德的，这是出于生理和心理的拒绝，但我的室友们却持不同观点。我向他们提出了以下几个问题：</p><ol><li>你从恋爱关系中期待什么？</li><li>你认为这样做是否正确？如果不正确，为什么要坚持？</li></ol><p>五月底的时候，我曾认为一个人的一生长度应该是相等的，因此形成的个体观念和技能总量应该是大致相同的。然而，现在看来，我提出的问题似乎过于简单，更准确的问题应该是：是什么影响了人的观念？这个问题同样看似简单：</p><ul><li>个人兴趣和倾向：每个人的兴趣和倾向各不相同，这直接影响了他们选择探索的领域和知识范围。有些人对多个领域都有浓厚的兴趣，他们渴望不断探索和学习新事物。而其他人可能对某个特定领域或主题有深刻的兴趣，因此选择在该领域专注深入。</li><li>时间和资源限制：人们的时间和资源是有限的。广泛涉猎需要花费大量时间和精力来学习和探索不同领域，对许多人来说可能是一项挑战。相比之下，专注于特定领域可能更容易获得深入的知识。因此，个人的时间和资源限制可能导致他们在特定领域内知识面相对狭窄。</li><li>教育和环境因素：个人的教育背景和生活环境也会对知识面产生影响。在教育体系中，人们通常会接触广泛的学科和领域，这有助于他们广泛涉猎。另一方面，一些人可能在特定领域接受更深入的教育或培训，使他们在该领域具备更专业的知识。</li><li>社交圈和信息过载：个人的社交圈和信息来源也会影响他们的知识范围。如果一个人的社交圈涵盖广泛的兴趣和知识，他们可能更受鼓励去涉猎不同领域。然而，在面临信息过载时，人们可能更容易专注于特定领域，以处理大量信息的涌入。</li></ul><p>有人曾说，在真正了解自己想要的之前，所做的一切都是对他人的拙劣模仿。我们不清楚自己对什么感兴趣。16-18岁时，在对各种学科一无所知的情况下，我们被迫选择专业；22-25岁时，在对社会运作机制毫无概念的情况下，我们被要求选择职业；25-28岁时，在对人际交往一知半解的情况下，我们被要求选择一生的伴侣。人生犯错是一个相当常见的情况。</p><p>“人们可能缺乏知识或被误导，而这种无知和困惑可能源自教育体系的不足、传统观念的约束或缺乏对自己和世界的深入思考。”</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这个博客创建于2023年5月23日，我在哲学类的订阅中偶然看到了关于&quot;自我&quot;的主题。而今天，正值我的大学百年校庆，我和一些舍友相聚，谈论各种话题，尽管有些话题看似无关紧要，但我决定将其重新梳理并更新博客。&lt;/p&gt;
+&lt;p&gt;我的室友们正在面临情感问题，类似于“如果你遇到更合适的</summary>
+      
+    
+    
+    
+    
+    <category term="观点" scheme="https://hi.asyncx.top/tags/%E8%A7%82%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>雅思首考的一些感受</title>
+    <link href="https://hi.asyncx.top/2023/09/11/2023-09-11/"/>
+    <id>https://hi.asyncx.top/2023/09/11/2023-09-11/</id>
+    <published>2023-09-11T12:09:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>本来是要在9.11中午的时候考完口语的.当时报名是9.10考听读写的,9.11中午考口语,不知道由于什么原因提前一天到9.10的中午,我还没有仔细的看准考证上面的日期,于是在昨天中午的时候考点老师打电话问我什么时候过来,是不是要弃考,从食堂跑到教学楼,上气不接下气的开始口语考试.<br>由于首考没什么经验,加上自己粗心导致这种结果,我在下午的考试反而看开很多,这里总结一下雅思首考我个人的想法,目前只针对自己总结的缺点和薄弱项想法,整体流程会在二战或考过之后(wishing)详细总结.</p><h1>听力</h1><p>地图题发挥良好,part4部分有连的近的题目漏掉了两个，我个人认为是听听力时候注意力不集中.需要在考试前做抗压训练和完全仿真的机考模拟.</p><h1>阅读</h1><p>Part1 T/F/NG+填词<br>很简单,没遇见什么问题.<br>Part2 遇到了没什么印象的段落匹配题型,吃了我很大一部分时间<br>Part3 遇见特别多选择(3道大题2道大题型都是选择)+短语匹配题<br>犯了我上学时期的老毛病,遇见不会的题就会蒙一个空过去然后做下一题,导致我60min的阅读时间40min就做完了所有的题,然后回过头检查重新选,这样虽然能确保一些正确率但是感觉还是性价比有点低.<br>遇见的问题是发现没完全读懂part2/3文章，<br>今天看了b站up的视频,翻了翻题发现很多基于文章句子的选择的时候是看主语的,需要语法重构,能更快判断主语成分确定选项.</p><h1>写作</h1><p>机考的时候下面会给出你的字数,由于最后是写作所以注意力比较集中了,加上我打字比较快,写完之后剩10mins我返回part1并又多写了两句话.<br>Part1 200 words<br>弱数据类型的条形图,没有办法进行大量比较,因此我相互比较,遇到了词汇和句式比较简单的问题,需要背一些高级表达和句式.<br>Part2 300 words<br>考前看了一遍观点库的目录,大概有了一个思路是对个人-&gt;社会-&gt;国家的作用.</p><h1>口语</h1><p>事发突然,很多想好的逻辑都忘的比较干净,但是还是把考官当成正常conversation一样进行沟通了,遇到了忘记怎么说的单词或者句子脱口而出来不及思考后面逻辑的时候我就会断掉,很无奈的说:sorry, I forget that word.然后继续conversation.<br>part1后半部分卡壳一次<br>part2 我的语速过快来不及思考导致有卡壳<br>part3有一个问题的单词没听懂，搪塞过去。&nbsp;<br>最后考官表示要超时了。打断并说祝福语，结束part3</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本来是要在9.11中午的时候考完口语的.当时报名是9.10考听读写的,9.11中午考口语,不知道由于什么原因提前一天到9.10的中午,我还没有仔细的看准考证上面的日期,于是在昨天中午的时候考点老师打电话问我什么时候过来,是不是要弃考,从食堂跑到教学楼,上气不接下气的开始口语</summary>
+      
+    
+    
+    
+    
+    <category term="IELTS" scheme="https://hi.asyncx.top/tags/IELTS/"/>
+    
+    <category term="出国" scheme="https://hi.asyncx.top/tags/%E5%87%BA%E5%9B%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何听更好音质的歌</title>
+    <link href="https://hi.asyncx.top/2023/08/24/2023-08-24/"/>
+    <id>https://hi.asyncx.top/2023/08/24/2023-08-24/</id>
+    <published>2023-08-24T23:08:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>几年前对音质比较有追求,当时只限于换更好的耳机来听歌.直到前一段时间去苏州看到了开了20多年的唱片店,没忍住买了草东的&lt;瓦合&gt;.受限于不多的经费,于是下工夫了解了一下影响音质的几个物品,于是记录一下,方便为大家扫盲和学习.</p><h1>从音源到耳朵</h1><p>一首歌如果你想听到HIFI(High-Fidelity高保真)音质,从物质层面来说是这样的:</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">高保真的音源(DSD、WAV、AIFF、FLAC、APE、ALAC...)</span><br><span class="line">前端(解码+耳放/功放)</span><br><span class="line">后端(耳机/音响)</span><br></pre></td></tr></tbody></table></figure><p>木桶理论,任何一方面有短板都会影响到音质.上面介绍了从音源传到耳朵所经过的步骤,接下来介绍一下听HIFI音质所需的各个部分.</p><h1>音源</h1><p>CD音质的<strong>采样率</strong>为44.1KHz，就表示每秒采集和处理44100个样本。采样率越高的话，声音信号的频率响应越宽，音质也就越好。当然采样率越高，会占据更多的存储空间。<br><strong>位深</strong>越高，数字音频的动态范围越大，能够更准确地显示出声音信号的细节和差异。</p><h1>解码</h1><p>解码器是一种将数字信号转换为模拟信号的电子设备，它是数字音频系统中的重要组成部分。解码器的性能和质量直接影响到音频信号的还原度和音质。</p><h1>功率放大机(功放)</h1><p>功放，是各类音响器材中最大的一个家族，其作用主要是将音源器材输入的较微弱信号进行放大后，产生足够大的电流去推动扬声器进行声音的重放。由于考虑功率、阻抗、<a href="https://baike.baidu.com/item/%E5%A4%B1%E7%9C%9F?fromModule=lemma_inlink">失真</a>、动态以及不同的使用范围和控制调节功能，不同的功放在内部的<a href="https://baike.baidu.com/item/%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86?fromModule=lemma_inlink">信号处理</a>、线路设计和生产工艺上也各不相同.按照使用元器件的不同，功放又有“胆机”（<a href="https://baike.baidu.com/item/%E7%94%B5%E5%AD%90%E7%AE%A1%E5%8A%9F%E6%94%BE?fromModule=lemma_inlink">电子管功放</a>），“<a href="https://baike.baidu.com/item/%E7%9F%B3%E6%9C%BA?fromModule=lemma_inlink">石机</a>”（晶体管功放），“IC功放”（<a href="https://baike.baidu.com/item/%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF?fromModule=lemma_inlink">集成电路</a>功放）。<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202308250021847.png" alt=""></p><h1>音响</h1><p>分为有源音响和无源音响.<code>源</code>代表着更完善和集中的前端,这里介绍音响的参数.</p><h2 id="功率：">功率：</h2><p>音箱的功率大小是选择音箱的重要指标之一，该指标决定了音箱所能发出的最大声响，可以将其简单理解为音箱所能发出的最大声音。<br>音箱的功率主要由功率放大器芯片的功率所决定的，此外还与电源变压器的功率有关<br>按照国际标准，音箱功率的标注方式有两种，额定功率又称长期功率与峰值功寓，又称最大承受功率，前者是指在额定频率范围内给扬声器，一个规定了波形的持续模拟信号，在一定间隔并反复播放了一定次数后，扬声器不发生任何损坏的最大功率，后者是指扬声器短时间所能承受的最大功率。</p><h2 id="频响范围：">频响范围：</h2><p>频率范围是指音箱最低有效回放频率与最高有效回放频率之间的范围单位为Hz，从理论上讲音箱的频响范围应该是越宽越好，至少应该是在18Hz-20kHz的范围内。<br>但是事实上并非如此，这主要受以下三个方面的影响，一是受听音环境的限制，因为重播低频信号受到了房间容积的限制。二是受扬声器尺寸和音箱体积的限制，三式音箱的频响范围越宽，对放大器的要求就越高，多媒体音箱的频率范围要求一般在70Hz-10kHz即可，要求较高的可在50Hz-16kHz。</p><h2 id="阻抗：">阻抗：</h2><p>阻抗是指扬声器输入信号的电压与电流的比值，低阻抗的音箱可以获得较大的输出功率，但是阻抗太低又会造成低音劣化的现象，因此选择国际标准推荐的8欧姆。</p><hr><h1>耳放</h1><p>即耳机功率放大器,详情参照功放. 目前世面上的一般为解码+耳放一体机<br><img src="https://global-uploads.webflow.com/627128d862c9a44234848dda/64d9c81be627fe010d036677_DAWNPRO.jpg" alt=""></p><h1>耳机</h1><p>正在了解…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;几年前对音质比较有追求,当时只限于换更好的耳机来听歌.直到前一段时间去苏州看到了开了20多年的唱片店,没忍住买了草东的&amp;lt;瓦合&amp;gt;.受限于不多的经费,于是下工夫了解了一下影响音质的几个物品,于是记录一下,方便为大家扫盲和学习.&lt;/p&gt;
+&lt;h1&gt;从音源到耳朵&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>苏州三天行</title>
+    <link href="https://hi.asyncx.top/2023/07/25/2023-07-25/"/>
+    <id>https://hi.asyncx.top/2023/07/25/2023-07-25/</id>
+    <published>2023-07-25T16:07:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>陪女朋友面试，因此去苏州呆了几天。攻略做的不算很好，这一趟的目的也是休闲和以吃为主的，本文也用来主要记录一下这趟的线路。</p><h1>简述</h1><p>小红书和抖音大致确定了一下有什么好吃的（蟹面这些东西本地人都不咋吃），使用Mac的地图大致确定了一下住宿的范围在姑苏区，接着就是大致确定一下吃的东西和住宿的距离。</p><h2 id="住宿">住宿</h2><p>在20年订CJ酒店的时候，就明确一定要订<strong>在地铁口附近的酒店</strong>，和想吃的想玩的地方不用距离很近，但是一定要离地铁近，方便你来和走的时候带东西。我是选择了十全街旁边的评价比较好的酒店。</p><h2 id="吃喝">吃喝</h2><p>我们是比较休闲的，所以没有大范围的去吃，大多都是姑苏区的<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202308131026728.png" alt=""></p><p>个人认为最好吃的是珍珠饭店（苏帮菜）和红小满（融合餐厅），裕兴记的面出品不是很稳定。甜品木缘新豆花，买了就走，带到宾馆和饭店吃。其他的小吃也没有踩雷，仅代表个人口味。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;陪女朋友面试，因此去苏州呆了几天。攻略做的不算很好，这一趟的目的也是休闲和以吃为主的，本文也用来主要记录一下这趟的线路。&lt;/p&gt;
+&lt;h1&gt;简述&lt;/h1&gt;
+&lt;p&gt;小红书和抖音大致确定了一下有什么好吃的（蟹面这些东西本地人都不咋吃），使用Mac的地图大致确定了一下住宿的范围在姑</summary>
+      
+    
+    
+    
+    
+    <category term="旅游" scheme="https://hi.asyncx.top/tags/%E6%97%85%E6%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>毕业，以及短期的安排</title>
+    <link href="https://hi.asyncx.top/2023/06/21/2023-06-21/"/>
+    <id>https://hi.asyncx.top/2023/06/21/2023-06-21/</id>
+    <published>2023-06-21T16:06:00.000Z</published>
+    <updated>2023-11-06T05:02:50.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>在回家前的这段时间在学校忙一些档案的事情，在此呼吁大家离校前要操心以下东西</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">成绩单-学院教务处</span><br><span class="line">（英文成绩单-教务处或要到中文pdf后自己翻译并找老师盖章）</span><br><span class="line">学籍/（党员）档案</span><br><span class="line">毕业证书/学士学位证书</span><br><span class="line">...</span><br></pre></td></tr></tbody></table></figure><p>此外，学院为了就业率也会无所不用其极的让你签下来劳动合同或三方协议。问身边同学他们对这两个东西有什么差异也是一知半解，我梳理后放在这里。</p><hr><p>应届生的分类可包括当年应届毕业生和择业期的应届毕业生。当年应届毕业生即处于国家统一招生的高校学生在学最后一年，即将毕业但还没拿到毕业证的学生；择业期的应届毕业生即已经拿到毕业证，但处于择业期内的学生。而根据对人事或劳动关系的界定，参加工作的时间和工作年限往往参考劳动合同及就业登记、社会保险缴费记录等来认定。也就是说，如果想以“应届生”身份报考“公务员”，高校毕业生需要早做打算，在校最后一年及毕业后两年内不能随意签订劳动合同和缴纳社保。<br>三方协议是在毕业生在校期间签订的；劳动合同是拿到毕业证以后签订的。</p><ol><li>劳动合同是你和某一家单位双方签订的契约，需要拿到毕业证。 签了劳动合同，如果还是处于毕业的当年，就还是属于应届毕业生。国家规定，统一招生的高校毕业生离校时和在择业期内（国家规定择业期为二年，有些地方延长至三年）都按应届高校毕业生对待。对于应届毕业生的规定不是依据劳动合同的规定而是按照当事人的毕业时间作为判断标准的。即使签订了劳动合同只要依旧处于毕业的年份即为应届毕业生。</li><li>三方协议书只是三方签订的就业意向，不是劳动关系的法律文件，对劳动关系没有约束力。需要说明的是，一旦毕业生到单位报到，并与单位签订了劳动合同或形成了事实劳动关系，毕业生就会和用人单位形成正式的劳动关系。所以，三方协议并非正式的劳动合同，对考生的应届生身份并不造成影响。但是假如考生签订了正式的劳动合同，就算是毕业当年，在报考选调生等公考的时候，也不算应届生身份了。但是，虽然三方协议签订的只是一个就业意向，对劳动关系没有约束力。 三方协议不是劳动关系中个人与用人单位正式的约束性文件，只有你签了三方后，学校发了报到证，在规定的时间内去那个单位报道并签订了劳动合同，之后三方协议就正式失效了。</li></ol><hr><p>最近的安排是在8月机考第一次雅思，目前开始刷真题和联系练习口语。加油😼</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在回家前的这段时间在学校忙一些档案的事情，在此呼吁大家离校前要操心以下东西&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line</summary>
+      
+    
+    
+    
+    
+    <category term="闲言碎语" scheme="https://hi.asyncx.top/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>近日&amp;首阳</title>
+    <link href="https://hi.asyncx.top/2023/05/16/2023-05-16/"/>
+    <id>https://hi.asyncx.top/2023/05/16/2023-05-16/</id>
+    <published>2023-05-16T16:05:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>《约翰•威尔逊的生活指南》S01E05-8:57<br><img src="https://cdn.jsdelivr.net/gh/A5yncX/img/images/202305102055117.png" alt=""></p><hr><p>上周五进行了毕业答辩，答辩小组是30人，通过人数只有12个。剩下的所有人都要进行二辩，如果不通过就延毕。</p><hr><h1>20230515</h1><p>中午的时候量体温，38度，下午的时候39度。吃了布洛芬捂汗，伴有咽干，头痛的症状。凌晨体温下降一点。</p><h1>20230516</h1><p>起床体温37.4度，嗓子像吞刀片一样。中午体温完全正常，吞刀片感觉加重，在吃含片，喝口服液时候感觉没那么强烈。饭都不怎么能吃得下去。</p><h1>20230517</h1><p>去医院开了消炎药，抽血化验，咽喉发炎为病毒性，喉咙稍有好转。药单如下</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">盐酸阿比多尔片</span><br><span class="line">阿莫西林克拉维酸钾片</span><br><span class="line">金莲清热颗粒</span><br><span class="line">柑桔冰梅片</span><br></pre></td></tr></tbody></table></figure><h1>20230518</h1><p>神经间歇疼的症状消失，刀片嗓略微缓解。嗓子开始略痒，想要咳嗽。医生叮嘱忍住不要咳，后期会咳的停不下来。</p><h1>20230519</h1><p>一点点嗓子疼，一点点想咳嗽。停吃消炎药，开始吃含片。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;《约翰•威尔逊的生活指南》S01E05-8:57&lt;br&gt;
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/A5yncX/img/images/202305102055117.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;上周五进行了毕业答辩，</summary>
+      
+    
+    
+    
+    
+    <category term="闲言碎语" scheme="https://hi.asyncx.top/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一期-Beancount使用体验</title>
+    <link href="https://hi.asyncx.top/2023/05/01/2023-05-01/"/>
+    <id>https://hi.asyncx.top/2023/05/01/2023-05-01/</id>
+    <published>2023-05-01T13:05:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<h1>前言</h1><p>为了督促自己自律一点，持续更新博客，我打算将应用软件类的使用心得教程类作为一个栏目写。一是这样方便大家对工具类的博客进行索引，二也可以对大家的软件的选择起到引导性作用。<br>言归正传，官网是这么描述Beancount的。<code>Double-Entry Accounting from Text Files.</code>即为从文本调用的<strong>复式簿记</strong>。</p><h2 id="什么是复式簿记？">什么是复式簿记？</h2><p>复式簿记是一种把每笔交易都记录到复数个账户中的簿记方法，简单来说就是“有得必有失”。</p><p>当你从你的B账户为A支付了<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="1.294ex" height="1.025ex" role="img" focusable="false" viewBox="0 -442 572 453"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g></g></g></svg></mjx-container>元，那么你的账户就损失了<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="1.294ex" height="1.025ex" role="img" focusable="false" viewBox="0 -442 572 453"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g></g></g></svg></mjx-container>元，损失的这份价钱转变为了A的<strong>价值</strong>，而单独对于你的B账户，作为支付方损失了A的价值。但此时对你来说你所具有的财富仍然保持不变，这个例子使用Beancount的记录如下：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2023-05-01 * "买了A"</span><br><span class="line">  Assets:Cash                            -X CNY</span><br><span class="line">  Expenses:Shopping                      +X CNY</span><br></pre></td></tr></tbody></table></figure><h2 id="这样记账的好处是什么？">这样记账的好处是什么？</h2><p>由于复式簿记的前提是收支守恒，那么遇到以下例子也会很方便记账：<br>你和甲，乙三个人去吃饭，总共花了<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="3.059ex" height="1.595ex" role="img" focusable="false" viewBox="0 -683 1352 705"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><path data-c="33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></g><g data-mml-node="mi" transform="translate(500,0)"><path data-c="1D44B" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path></g></g></g></svg></mjx-container>元，甲帮你垫付了<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="1.795ex" height="2.737ex" role="img" focusable="false" viewBox="0 -864.9 793.6 1209.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mn" transform="translate(220,394) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mn" transform="translate(220,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="553.6" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>的钱，乙也帮你垫付了<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.781ex;" xmlns="http://www.w3.org/2000/svg" width="1.795ex" height="2.737ex" role="img" focusable="false" viewBox="0 -864.9 793.6 1209.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mfrac"><g data-mml-node="mn" transform="translate(220,394) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mn" transform="translate(220,-345) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><rect width="553.6" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container>的钱，你需要分别还给他们，这时使用Beancount的记录如下：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">2023-05-01 * "和甲乙吃饭"</span><br><span class="line">  Assets:Cash                            -X CNY</span><br><span class="line">  Liabilities:Jia                      +X/2 CNY</span><br><span class="line">  Liabilities:Yi                       +X/2 CNY</span><br></pre></td></tr></tbody></table></figure><p>这个例子中的收支依旧为0，区别和上面的则在于支出项为两个人（复数个），在遇到此类情况，复式簿记的优势就体现出来了。</p><h1>如何使用Beancount来进行记账</h1><ul><li><a href="https://beancount.github.io/docs/">Beancount Documentation</a></li><li><a href="https://docs.google.com/document/d/1wAMVrKIA2qtRGmoVDSUBJGmYZSygUaR0uOMW1GV3YE0/edit">Beancount - Language Syntax</a></li></ul><h2 id="安装">安装</h2><p>Beancount可以用以下方法安装，并同时安装<code>fava</code>-Beancount的实用性UI。</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">python -m venv BEANCOUNT</span><br><span class="line">source BEANCOUNT/bin/active</span><br><span class="line">pip install beancount</span><br><span class="line">pip install fava</span><br></pre></td></tr></tbody></table></figure><h2 id="结构">结构</h2><p>记账作为一个持久性的项目，需要具备如下特点：</p><ul><li>准确性</li><li>持久性<br>而Beancount作为记账软件可以额外提供的：</li><li>永久性</li><li>安全性<br>我从这里开始将用最快可投入使用的语言进行描述。<br>首先的首先，你需要创建一个main.bean来令fava进行读取操作，这个bean文件更类似于索引功能。</li></ul><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">;账本信息</span><br><span class="line">option "title" "main" ;账本名</span><br><span class="line">option "operating_currency" "CNY" ;账本货币</span><br><span class="line">2001-08-06 custom "fava-option" "language" "zh"</span><br><span class="line">include "accounts/assets.bean" ;资产账户设置及初始化</span><br><span class="line">include "accounts/liabilities.bean" ;负债账户设置及初始化</span><br><span class="line">include "accounts/expenses.bean" ;支出账户设置</span><br><span class="line">include "accounts/income.bean" ;收入账户设置</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">;交易记录</span><br><span class="line">include "2023/2023.bean" ;2023账本</span><br></pre></td></tr></tbody></table></figure><p>其次，你需要创建用于支付的项目和用于支付的账户。</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">account/assets.bean</span><br><span class="line">2001-08-06 open Equity:OpenBalance ;用于账户初始化，支持任意货币</span><br><span class="line">2001-08-06 open Assets:Card:9806 CNY ;尾号9806的银行卡</span><br><span class="line">2001-08-06 open Assets:Card:2437 CNY ;大学银行卡</span><br><span class="line">2001-08-06 open Assets:Alipay:Name CNY ;支付宝</span><br><span class="line">2001-08-06 open Assets:Wechat:Name CNY ;微信</span><br></pre></td></tr></tbody></table></figure><p>需要强调的地方：账户的名字必须<strong>大写</strong>，你需要为所有的账户制定货币单位（CNY）。<br>此外，还需要创建付款项，这里我参考了其他记账软件的项目：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">account/expenses.bean</span><br><span class="line">2001-08-06 open Expenses:Other CNY</span><br><span class="line">2001-08-06 open Expenses:Dining CNY</span><br><span class="line">2001-08-06 open Expenses:Shopping CNY</span><br><span class="line">2001-08-06 open Expenses:Transportation CNY</span><br><span class="line">2001-08-06 open Expenses:Entertainment CNY</span><br><span class="line">2001-08-06 open Expenses:Electronics CNY</span><br><span class="line">2001-08-06 open Expenses:Clothing CNY</span><br><span class="line">2001-08-06 open Expenses:Pets CNY</span><br><span class="line">2001-08-06 open Expenses:Daily CNY</span><br><span class="line">2001-08-06 open Expenses:SnacksandBeverages CNY</span><br><span class="line">2001-08-06 open Expenses:FruitsandVegetables CNY</span><br></pre></td></tr></tbody></table></figure><p>你还需要按照以上格式创建负债账户和收入账户，前缀分别为<code>Liabilities:XX</code>和<code>Income:XX</code>，这些均放置于main.bean同目录的<code>account</code>文件夹内。<br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202305012225163.png" alt=""></p><p>最后，创建账本。我是按照年/月来进行账本的分类，每月进行汇总。你无需自己创建，我将模板放在本文最后。</p><h2 id="使用">使用</h2><p>安装完成且正常创建后，在<code>main.bean</code>同目录下输出<code>fava main.bean --port 8888</code>打开服务，main.bean为账本项目，<code>--port 8888</code>为在端口8888打开网页，指定端口防止了Mac电脑默认端口的冲突。打开<code>localhost:8888</code>,你可以看到直观的数据。<br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202305012235915.png" alt=""></p><p>到这一步，就已经完成安装了。</p><h1>工作流</h1><p><a href="https://asyncx.notion.site/94fd0547e412439aab00dbf2c1fb9097">Notion 月账单模板</a><br>通过两个<code>select</code>记录资金的出和入，每月导出一次到 beancount 进行统计。如果有可以解决通过 Notion 多对一 /多对多记账的更好方案和脚本欢迎 pr 。<br>脚本和年度账本模板：<a href="https://github.com/A5yncX/notion-to-beancount">A5yncX/notion-to-beancount</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;为了督促自己自律一点，持续更新博客，我打算将应用软件类的使用心得教程类作为一个栏目写。一是这样方便大家对工具类的博客进行索引，二也可以对大家的软件的选择起到引导性作用。&lt;br&gt;
+言归正传，官网是这么描述Beancount的。&lt;code&gt;Double-</summary>
+      
+    
+    
+    
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+    <category term="Beancount" scheme="https://hi.asyncx.top/tags/Beancount/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在MacOS配制Rime（鼠须管）输入法</title>
+    <link href="https://hi.asyncx.top/2023/04/14/2023-04-14/"/>
+    <id>https://hi.asyncx.top/2023/04/14/2023-04-14/</id>
+    <published>2023-04-14T20:04:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://rime.im/images/home-title.svg" alt=""></p><h1>前言</h1><p>在我折腾Rime（小狼毫、鼠须管）的这几次里，只有这次比较成功，在此记录一下。<br><code>🛑个人原因，本文并不会提及详细的文件配制，旨在“开箱即用”。</code></p><h1>安装</h1><ol><li>下载&nbsp;<a href="https://rime.im/">鼠须管</a>，安装后切换到 Rime 输入法，通过组合键&nbsp;<code>Control+｀</code>&nbsp;&nbsp;键可以切换输入方案，例如选择【朙月拼音·简化字】简体输出。</li></ol><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注：建议 Mac 打开通知，之后部署会提示是否成功。</span><br></pre></td></tr></tbody></table></figure><ol start="2"><li>配制库：<a href="https://github.com/ssnhd/rime">地址</a>，解压得到<code>配置文件</code>和<code>花园明朝字体</code>，将字体安装到字体册，原因是 Mac 缺少部分生僻字。</li><li>将<code>配置文件</code>内的所有文件移动到<code>Rime</code>文件夹内（右上角切换输入法到鼠须管，点击<code>用户设定...</code>即可，不要自作主张放到其他子文件夹下！）</li><li>点击<code>重新部署</code>，到此已经可以正常使用。</li></ol><h1>设置</h1><h2 id="全局设置">全局设置</h2><p>全局设置文件&nbsp;<code>default.custom.yaml</code>，包含输入方案、候选词个数、中英文切换、快捷键。</p><h2 id="快捷短语设置">快捷短语设置</h2><p>用文本编辑打开&nbsp;<code>custom_phrase.txt</code>，规则：内容+编码+权重（可选），使用 Tab 键间隔。</p><h2 id="皮肤设置">皮肤设置</h2><p>打开&nbsp;<code>squirrel.custom.yaml</code>，将皮肤代码添加进去，按照下图说明设置自己喜欢的皮肤。</p><ul><li>style/color_scheme: 浅色皮肤名称</li><li>style/color_scheme_dark: 深色皮肤名称</li></ul><h2 id="同步至-iCloud">同步至 iCloud</h2><p>1、配置文件里打开&nbsp;<code>installation.yaml</code>，将&nbsp;<code>id</code>&nbsp;改为 Mac（支持自定义）。<br>2、复制下面路径代码粘贴进去，将&nbsp;<code>admin</code>&nbsp;替换为 Mac 管理员名称（代码里&nbsp;<code>RimeSync</code>&nbsp;是同步后文件夹名称，支持自定义）。</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sync_dir: "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/RimeSync"</span><br></pre></td></tr></tbody></table></figure><p>点击菜单栏【ㄓ】-【同步用户数据】，等待几秒提示同步成功。打开访达 iCloud 找到名为 RimeSync 的文件即是。</p><h1>可能会遇到的问题</h1><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">如何添加自己的词库？</span><br><span class="line">-选用的仓库汇总了很多词库，已基本够用，可以满足绝大部分用户需求，初次使用极少部分词频不完全在首位，稍微用几日即可。我目前添加自己的词库遇到了无法正常联想的问题，目前方法就是添加快捷短语。</span><br></pre></td></tr></tbody></table></figure><blockquote><p><a href="https://ssnhd.com/2022/01/06/rime/">https://ssnhd.com/2022/01/06/rime/</a><br><a href="https://rime.im/">https://rime.im/</a></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://rime.im/images/home-title.svg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;在我折腾Rime（小狼毫、鼠须管）的这几次里，只有这次比较成功，在此记录一下。&lt;br&gt;
+&lt;code&gt;🛑个人原因，本文并不</summary>
+      
+    
+    
+    
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+    <category term="Rime" scheme="https://hi.asyncx.top/tags/Rime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更换主力浏览器为Arc浏览器</title>
+    <link href="https://hi.asyncx.top/2023/04/08/2023-04-08/"/>
+    <id>https://hi.asyncx.top/2023/04/08/2023-04-08/</id>
+    <published>2023-04-08T22:04:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>When we think about browsing the internet, we often ignore the browser itself. Instead, we think about all the things we do online—the articles we read, the emails we send, the shows we watch. The software that enables it all, the browser, is so ubiquitous that it’s ignored.</p></blockquote><p><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202304082241872.png" alt=""></p><p>今日更换了arc浏览器作为主力浏览器,谈一下使用一天的感受.首先作为一款仍使用<code>Chromium Engine</code>的浏览器,兼容了 Chrome 的插件生态,在登录时就可以同步所有的扩展/密码/设置/浏览历史.</p><h2 id="优点">优点</h2><ul><li>使用精心设计的侧边栏布局，极大程度释放了屏幕空间（支持固定，隐藏多种设置）</li></ul><ul><li>经常访问的网址可以有多种保存方式（如 Favorite，Pin 等）</li><li>多个人空间（可以按照个人习惯，将工作学习，生活娱乐完全隔离开来），而且每个空间可以定制个性化皮肤。</li><li>适合多任务处理的分屏浏览（一边查资料，一边记笔记）</li><li>内置小工具（如笔记，简易画板等）</li><li>Library 可以通过系统授权，将文件系统交由 Arc 来管理（更加专注，不需要频繁在系统文件和浏览器之前反复横跳）</li><li>针对专业人士开放的&nbsp;<code>New Boost</code>&nbsp;高级自定义功能（满足更多定制化需要）</li></ul><h2 id="缺点">缺点</h2><ul><li>部分设计简洁到使用难受(翻译功能由于默认为任意语言-英语,你需要手动调节.)</li><li>对于会修改默认页面的扩展没有正常的弹出和提示默认页的信息(iTab)</li><li>占用内存过大<br>综上,我仍认为这是一个瑕不掩瑜的完美浏览器,我会在深度使用一段时间后更新这篇文章.</li></ul><h2 id="一些问题">一些问题</h2><ol><li>浏览器目前为邀请制,我的邀请码放在了<a href="https://www.v2ex.com/t/930773#reply14">V2EX</a></li><li>目前只有MacOS和IOS可以使用本浏览器</li><li>在注册遇到报网络问题时,请下载<code>ClashX Pro</code>并开启全局模式和增强模式,之后就不用了</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;When we think about browsing the internet, we often ignore the browser itself. Instead, we think about all the things we do </summary>
+      
+    
+    
+    
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为hexo博客添加黑暗模式(使用darkmode.js)</title>
+    <link href="https://hi.asyncx.top/2023/03/27/2023-03-27/"/>
+    <id>https://hi.asyncx.top/2023/03/27/2023-03-27/</id>
+    <published>2023-03-27T21:03:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>20230408更新.更换博客主题,本文教程无变化.</p></blockquote><p>最近总在晚上写一些东西,突然想起来博客还没有黑暗模式.我的博客用的是vexo主题,去翻了一下vexo的github:<a href="https://github.com/yanm1ng/hexo-theme-vexo">https://github.com/yanm1ng/hexo-theme-vexo</a><br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202303272135621.png" alt=""><br>…<br>本文主要为hexo vexo主题添加一个可以切换的黑色/夜间模式。本文介绍如何实现按钮来切换，包括如何在代码部分也切换夜间模式。</p><h1>安装</h1><p>跟据<a href="https://github.com/sandoche/Darkmode.js">darkmode.js</a> 官网的描述,在网页的head引入</p><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">function</span> <span class="title function_">addDarkmodeWidget</span>(<span class="params"></span>) {</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">new</span> <span class="title class_">Darkmode</span>().<span class="title function_">showWidget</span>();</span></span><br><span class="line"><span class="language-javascript">  }</span></span><br><span class="line"><span class="language-javascript">  <span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">'load'</span>, addDarkmodeWidget);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure><p>ps:由于国内使用<code>jsdelivr</code>并不稳定,我将博客的所有文件都放在了github,并通过netlify加速.</p><h2 id="效果">效果</h2><p><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202303272148228.gif" alt=""><br>你可能会发现到上面那步,效果和我的并不一样,字体仍然是黑色或者标签的边框和文章代码框是白色.<br>这时候就需要对颜色微调.</p><h1>优化</h1><h2 id="前言">前言</h2><p>在<code>darkmode.js</code>被激活的时候，会在<code>body</code>上添加一个<code>.darkmode--activated</code>的类，如果我们把上面没有暗黑化的样式添加到css里<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，就可以实现自己需要的效果.<br>我使用的主题是vexo,部分文件结构如下所示</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">├── _config.styl</span><br><span class="line">├── _partial</span><br><span class="line">│   ├── about.styl</span><br><span class="line">│   ├── archive.styl</span><br><span class="line">│   ├── catalog.styl</span><br><span class="line">│   ├── footer.styl</span><br><span class="line">│   ├── header.styl</span><br><span class="line">│   ├── markdown.styl</span><br><span class="line">│   ├── pager.styl</span><br><span class="line">│   ├── project.styl</span><br><span class="line">│   └── tags.styl</span><br><span class="line">├── layout.ejs</span><br><span class="line">└── style.styl</span><br></pre></td></tr></tbody></table></figure><p>我这里仅使用了通过修改css来改变前端样式,仅供参考.</p><h2 id="修改style-styl">修改style.styl</h2><p><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202303272209239.png" alt=""><br>这是我的优化,把tag和header的背景透明化.具体原理就是当添加暗黑的类属性后我的这些设置会覆盖原来设置的color/background等属性,就可以做到调整暗黑模式的颜色,当关闭暗黑模式时,仅这些颜色属性取消,就可以恢复正常的样子.<br>当然也可以有额外的设置,比如增大加粗暗黑模式的字体,修改暗黑模式的页面属性等.</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://www.toimc.com/hexo-usage-1/">hexo博客next主题添加夜间模式（Dark Mode）</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;20230408更新.更换博客主题,本文教程无变化.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最近总在晚上写一些东西,突然想起来博客还没有黑暗模式.我的博客用的是vexo主题,去翻了一下vexo的github:&lt;a href=&quot;https://g</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="https://hi.asyncx.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>语言规范可以帮你更好得到答案</title>
+    <link href="https://hi.asyncx.top/2023/03/15/2023-03-15/"/>
+    <id>https://hi.asyncx.top/2023/03/15/2023-03-15/</id>
+    <published>2023-03-15T22:03:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近用ChatGPT的次数比较多,用于对毕业论文的文字进行整理和专业性补充.身边朋友最经常问我的就是:<br>你怎么让ChatGPT输出你想要的文字?<br>你的怎么输出这么多?<br>这里需要引入的一个概念就是它作为一个语言模型,你要把它当成一个听众一样去表述你的问题.</p><blockquote><p>后文称ChatGPT为它<br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202303161720949.png" alt=""></p></blockquote><h1>规范化</h1><p>如果说它是一个万能的解答库,那语言的表述就是钥匙.</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">后端:Maven,SpringBoot,MyBatis </span><br><span class="line">前端:Bootstrap, jQuery,datatables,chart, sweetalert </span><br><span class="line">系统模块: </span><br><span class="line">1.系统用户登录模块 </span><br><span class="line">2.数据看板模块 </span><br><span class="line">3.每日打卡模块 </span><br><span class="line">4.打卡数据模块 </span><br><span class="line">5.用户管理模块 </span><br><span class="line">6.数据管理模块</span><br><span class="line"></span><br><span class="line">结合以上文字,为论文写一份摘要.</span><br></pre></td></tr></tbody></table></figure><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我正在写一篇毕业设计,使用了前后端分离的方式,请为我的论文写一份摘要.</span><br></pre></td></tr></tbody></table></figure><p>你会使用以上的哪种方法提问?<br>在我进行提问的时候,我更倾向于用已有信息去补充问题的背景来帮助它了解要如何回答这一个问题.当我需要进行连续提问的时候,则会通过<code>你还记得我们之前的对话吗?</code>或在第一个问题时提醒<code>这个对话的后续问题都请你联系之前的问题进行回答</code>.这样我就可以一边补充背景一边得到更精确的回答.</p><h1>API</h1><p>待体验完再写</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近用ChatGPT的次数比较多,用于对毕业论文的文字进行整理和专业性补充.身边朋友最经常问我的就是:&lt;br&gt;
+你怎么让ChatGPT输出你想要的文字?&lt;br&gt;
+你的怎么输出这么多?&lt;br&gt;
+这里需要引入的一个概念就是它作为一个语言模型,你要把它当成一个听众一样去表述你的问</summary>
+      
+    
+    
+    
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+    <category term="ChatGPT" scheme="https://hi.asyncx.top/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>删掉抖音,重拾RSS</title>
+    <link href="https://hi.asyncx.top/2023/02/24/2023-02-24/"/>
+    <id>https://hi.asyncx.top/2023/02/24/2023-02-24/</id>
+    <published>2023-02-24T00:02:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>事情越来越多,越来越觉得时间不够用.<br>前段时间朋友圈内看到有人在分享&lt;如何高效获得信息&gt;的付费专栏,点进去一看价格竟然要上千.相对开放的网络环境也会有信息差,这样的信息差导致了对自己的极度自信,不容易改变.<br>言归正传.本文使用Mac/IOS的Reeder 5.,使用了icloud进行设备间同步.<br><a href="https://zhuanlan.zhihu.com/p/461024469">Reeder5 详细使用教程（附翻译）</a><br>源方面我秉着贪多嚼不烂的原则,目前有以下(持续补充):</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">技术:</span><br><span class="line">程序员的喵: https://catcoding.me/atom.xml</span><br><span class="line">生活:</span><br><span class="line">少数派: https://rsshub.app/sspai/index</span><br><span class="line">娱乐:</span><br><span class="line">pixiv周排行: https://rsshub.app/pixiv/ranking/week</span><br></pre></td></tr></tbody></table></figure><p>如果有网友有前沿科技,科幻电影影评类的源麻烦分享一下.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;事情越来越多,越来越觉得时间不够用.&lt;br&gt;
+前段时间朋友圈内看到有人在分享&amp;lt;如何高效获得信息&amp;gt;的付费专栏,点进去一看价格竟然要上千.相对开放的网络环境也会有信息差,这样的信息差导致了对自己的极度自信,不容易改变.&lt;br&gt;
+言归正传.本文使用Mac/IOS的Re</summary>
+      
+    
+    
+    
+    
+    <category term="闲言碎语" scheme="https://hi.asyncx.top/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    
+    <category term="RSS" scheme="https://hi.asyncx.top/tags/RSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单注册ChatGPT的方法</title>
+    <link href="https://hi.asyncx.top/2023/02/15/2023-02-15/"/>
+    <id>https://hi.asyncx.top/2023/02/15/2023-02-15/</id>
+    <published>2023-02-15T15:02:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>2023.03.31更新<br>由于验证严格,目前注册方法更换为使用虚拟手机号的gmail邮箱注册.<br>声明:<br><strong>本人在gmail验证时使用了境外手机号,没有尝试过境内手机号能否解决登录ChatGPT限制!</strong></p></blockquote><h1>本文使用虚拟境外手机号接收短信解决</h1><p>ChatGPT已经火了很长时间了,身边很多朋友都是用的别人的api或者一些收费的服务.这里记录一下如何解决注册账号中手机号验证的问题.<br>官网: <a href="https://chat.openai.com/">https://chat.openai.com/</a><br>临时境外手机号: <a href="https://sms-activate.org/getNumber">https://sms-activate.org/getNumber</a><br>Gmail:<a href="https://mail.google.com/">https://mail.google.com/</a></p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">注册需要:</span><br><span class="line">1.临时手机号</span><br><span class="line">2.google账号</span><br></pre></td></tr></tbody></table></figure><p>首先注册一个账号,并在注册后点击充值.<br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202302181718116.png" alt=""></p><p>根据你想要的支付方式支付.1美元约70卢布.充值1美元即可.</p><blockquote><p>2023.03.31更新 目前变为至少充值2美元</p></blockquote><p>在登录或创建你的google账号后(这里的手机号和邮箱可以使用你自己的),进入gmail官网,它会提示你创建属于你自己的xxx@gmail.com,而你的google注册邮箱则变为备用邮箱.</p><p>进入上文给的ChatGPT官网,选择Google登录,点击已登录的google账号你会发现注册邮箱从你自己的变成了xxx@gmail.com,这时选择此账户登录即可进入ChatGPT.搞定.<br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202303311616792.png" alt=""></p><blockquote><p>登录时目前并未遇到要求验证手机号的问题.</p></blockquote><h1>可能会遇到的问题</h1><p>Q:ChatGPT报手机号异常</p><blockquote><p>A:点击购买手机号右侧x即可退款,再次购买其他地区即可.如果多次无法解决请选择你拥有WhatsAPP进行验证码验证即可.<br>2023.03.31更新:现在不会再出现这种问题.</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;2023.03.31更新&lt;br&gt;
+由于验证严格,目前注册方法更换为使用虚拟手机号的gmail邮箱注册.&lt;br&gt;
+声明:&lt;br&gt;
+&lt;strong&gt;本人在gmail验证时使用了境外手机号,没有尝试过境内手机号能否解决登录ChatGPT限制!&lt;/stro</summary>
+      
+    
+    
+    
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+    <category term="ChatGPT" scheme="https://hi.asyncx.top/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2023年，一些回顾</title>
+    <link href="https://hi.asyncx.top/2023/02/12/2023-02-12/"/>
+    <id>https://hi.asyncx.top/2023/02/12/2023-02-12/</id>
+    <published>2023-02-12T01:02:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前有篇文章介绍了今年需要做的一些事情，年前年后也算是解决了一些。</p><h1>部署基于notion的博客</h1><p>明年要出国，之前有打算开一个博客，试着写一写英语博客，趁着年后就实现了一下<br><a href="https://notion.asyncx.top/">Hi, I’m AsyncX. Here is my archieves.</a><br>由于当时学生优惠的服务器明年就到期了，此项目也是实时抓取notion界面再渲染的node项目，所以写作重心我还是选择放在这个博客，因此把博客的很多内容打算给修改一下。</p><h1>换了桌子</h1><p>之前的桌子很小，不稳，尺寸是<code>130*60*70</code><br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202302121208005.png" alt=""><br>为了放下MacBook需要拔高主显示器的高度，这样做会让屏幕挂灯在开启时有剧烈的反光。<br>年后和朋友们去宜家量了尺寸，购入了乌斯佩的电竞桌，尺寸是<code>170*80*高度可调</code><br><img src="https://jazzy-praline-dbe3ad.netlify.app/images/202302121247585.jpeg" alt=""></p><h2 id="多设备切换">多设备切换</h2><p>因为居家我只使用这一套键鼠,我用绿联的usb3.0转换器接入了键盘鼠标和一个固态,可以一键切换设备.在用win的时候只需要将悬臂拉起转过去即可,不会遮挡桌面区域.之前桌子抽屉内的物品买了一些小盒子放在购置的柜子中.</p><h2 id="理线">理线</h2><p>这个桌子后面的网状结构下面是一个弹力线编制的布兜,线从桌面和网状结构中间穿过,在下方接入电源.因此不用怎么理线.<br>键盘是NIZplum84,资金不足我买的有线.鼠标是delux,同学送的,3390的传感器,60g不到.手机供电是购买了宜家的无线充电器,功率只有5W.<br>关于理线我也没什么好的心得,我更倾向于先把单设备的所有线给缠在一起,然后理到桌子下面,再和其他设备的线分类缠好,最后接入电源.</p><h2 id="一些额外配置">一些额外配置</h2><p>朋友为了在家组mesh要走了华为AX3pro路由,给我了一个Glinet的AXT1800,自带OpenWrt,家里有公网,之前一直用来跑Minecraft服务器和当媒体服务器,后来不用就关了,4T机械也没了用处.AXT1800有一个usb3.0,用硬盘盒接入后SMB连接存了一些照片和电影.缺点是功率没有AX3pro大,主卧会收不到信号.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;之前有篇文章介绍了今年需要做的一些事情，年前年后也算是解决了一些。&lt;/p&gt;
+&lt;h1&gt;部署基于notion的博客&lt;/h1&gt;
+&lt;p&gt;明年要出国，之前有打算开一个博客，试着写一写英语博客，趁着年后就实现了一下&lt;br&gt;
+&lt;a href=&quot;https://notion.asyncx.</summary>
+      
+    
+    
+    
+    
+    <category term="闲言碎语" scheme="https://hi.asyncx.top/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>让你的MacBook更顺手一点</title>
+    <link href="https://hi.asyncx.top/2022/08/10/2022-08-10/"/>
+    <id>https://hi.asyncx.top/2022/08/10/2022-08-10/</id>
+    <published>2022-08-10T17:08:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>用MacBook Pro已经半年了，也试了不少软件。基于我自己的使用习惯，分为以下几类总结一下：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.记录</span><br><span class="line">2.工具</span><br></pre></td></tr></tbody></table></figure><h1>记录</h1><h2 id="Obsidian">Obsidian</h2><p>对我来说这是一个All in one的笔记软件，配合良好的社区生态实现了静态博客的自动推送。以及我目前的数据结构笔记也在里面存储。<br><a href="https://hi.asyncx.top/2022/05/15/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81/">如何配置一个静态博客工作流</a></p><h2 id="Sidenotes">Sidenotes</h2><p>这是一个mac的侧边栏记录软件，好处就是你可以随手记录随时看。<br><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/202208101713253.png" alt=""></p><h2 id="Notion">Notion</h2><p>目前仅用来和朋友进行部分信息共享编辑</p><h2 id="Goodnotes">Goodnotes</h2><p>使用iCloud和iPad同步我的笔记，学习用。</p><h2 id="IThoughsX">IThoughsX</h2><p>我用过的最好用的思维导图，个人认为比XMind强。</p><h1>工具</h1><h2 id="Dropzone">Dropzone</h2><p>配合脚本可以实现你想实现的任何功能<br><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/202208101716832.png" alt=""><br>比如一键添加到Sidenotes</p><h2 id="简阅">简阅</h2><p>这是一款付费买断制的浏览器插件，功能多且强，在阅读图文内容时可以帮你更专注于信息本身。</p><blockquote><p>简悦 - 为你提供「如杂志般沉浸式阅读体验」的扩展</p></blockquote><p>配合着插件我可以将网页内容直接同步到Obsidian,在整理后进行归档。</p><h2 id="Omi录屏专家">Omi录屏专家</h2><p>多功能录屏，适合分享屏幕操作。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;用MacBook Pro已经半年了，也试了不少软件。基于我自己的使用习惯，分为以下几类总结一下：&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span </summary>
+      
+    
+    
+    
+    
+    <category term="Mac" scheme="https://hi.asyncx.top/tags/Mac/"/>
+    
+    <category term="Tools" scheme="https://hi.asyncx.top/tags/Tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一次养猫发现的一些事</title>
+    <link href="https://hi.asyncx.top/2022/07/19/2022-07-19/"/>
+    <id>https://hi.asyncx.top/2022/07/19/2022-07-19/</id>
+    <published>2022-07-19T18:07:00.000Z</published>
+    <updated>2023-11-06T05:02:50.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一次养猫肯定都会焦虑，绑架毛毛已经一个月了，感觉就是除了咬人已经无所谓了。<br>这一个月毛毛大致是这样过渡的：</p><h1>前两周</h1><p>笼养，在一周后实验性的放出来，缩在阳台边，在窗帘后面躲我，哈人，只要我在就不吃东西。<br>第二周，只要我在就放出来，用冻干诱惑她。会哈人。</p><h1>第三周</h1><p>比较活泼，但是人走动还是会怕，找她会躲，会哈人，带她打了猫三联第一针。</p><h1>第四周至今一月整</h1><p>试探性的靠近我，玩具都会玩，据我推断快要知道自己叫毛毛了。减少了猫条诱惑她的次数，换粮，掺鸡胸肉。<br>已经会贴着我的屁股在椅子上睡觉了。</p><h1>月度总结</h1><p>毛毛状态变得不错，但是自己学会咬人了，已经咬伤我两次了。不过小猫不用打疫苗。现在的情况是打算让她知道咬人是要挨揍挨关的。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;第一次养猫肯定都会焦虑，绑架毛毛已经一个月了，感觉就是除了咬人已经无所谓了。&lt;br&gt;
+这一个月毛毛大致是这样过渡的：&lt;/p&gt;
+&lt;h1&gt;前两周&lt;/h1&gt;
+&lt;p&gt;笼养，在一周后实验性的放出来，缩在阳台边，在窗帘后面躲我，哈人，只要我在就不吃东西。&lt;br&gt;
+第二周，只要我在就放出</summary>
+      
+    
+    
+    
+    
+    <category term="毛毛" scheme="https://hi.asyncx.top/tags/%E6%AF%9B%E6%AF%9B/"/>
+    
+  </entry>
+  
+</feed>

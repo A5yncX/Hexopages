@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="关于博客，不妨如此理解。人总想留下某种痕迹，证明自己活过，然而事实上，99.999% 的普通人就这么被历史遗忘了——曾经是这样。我们处在信息时代的早期，同样也处在人类文明的早期。从今往后，被数字化的东西只会越来越多。而最有可能留存的，就是GitHub ，它也许是在百年尺度上存储信息并让其能被访问的唯一途径。   记录的过程并不是学习本身，而是思考。通过记录这种形式，把自己的理解写下来促进思考，才能">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何配置一个静态博客的工作流">
+<meta property="og:url" content="https://hi.asyncx.top/2022/05/15/2022-05-15/index.html">
+<meta property="og:site_name" content="AsyncX&#39;s Archive">
+<meta property="og:description" content="关于博客，不妨如此理解。人总想留下某种痕迹，证明自己活过，然而事实上，99.999% 的普通人就这么被历史遗忘了——曾经是这样。我们处在信息时代的早期，同样也处在人类文明的早期。从今往后，被数字化的东西只会越来越多。而最有可能留存的，就是GitHub ，它也许是在百年尺度上存储信息并让其能被访问的唯一途径。   记录的过程并不是学习本身，而是思考。通过记录这种形式，把自己的理解写下来促进思考，才能">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/image-20220514170839653.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/image-20220514153924400.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515135110.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515132643.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515132719.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515132509.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515212925.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213008.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213016.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213029.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213056.png">
+<meta property="og:image" content="https://cbgccdn.thecover.cn/FjVxDav3UzLN-0VwC70eFa4K9zeT">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213116.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213126.png">
+<meta property="og:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213136.png">
+<meta property="og:image" content="https://cbgccdn.thecover.cn/FkZQpdJfaVO3hTY_bU-antq52Vb3">
+<meta property="og:image" content="https://cbgccdn.thecover.cn/Fi9EnelximE3L6s5_9woPuoZmNIT">
+<meta property="article:published_time" content="2022-05-15T23:00:00.000Z">
+<meta property="article:modified_time" content="2023-11-06T05:02:50.454Z">
+<meta property="article:author" content="AsyncX">
+<meta property="article:tag" content="hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/image-20220514170839653.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/logo.gif">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/logo.gif" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.gif">
+        
+      
+    
+    <!-- title -->
+    <title>如何配置一个静态博客的工作流</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/atom.xml" title="AsyncX&#39;s Archive" type="application/atom+xml" />
+    
+	<!-- mathjax -->
+	
+
+<!-- 访问统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQWTGKC5EW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SQWTGKC5EW');
+</script>
+<meta name="generator" content="Hexo 6.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/tags/">Tag</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/search/">Search</a></li><!--
+     --><!--
+       --><li><a href="/atom.xml">RSS</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2022/05/30/2022-05-22/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://hi.asyncx.top/2022/05/15/2022-05-15/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&text=如何配置一个静态博客的工作流"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&is_video=false&description=如何配置一个静态博客的工作流"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=如何配置一个静态博客的工作流&body=Check out this article: https://hi.asyncx.top/2022/05/15/2022-05-15/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&name=如何配置一个静态博客的工作流&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://hi.asyncx.top/2022/05/15/2022-05-15/&t=如何配置一个静态博客的工作流"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.</span> <span class="toc-text">加速访问博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E6%9D%BF%E4%B8%AD%E4%BF%AE%E6%94%B9%E8%AF%84%E8%AE%BA"><span class="toc-number">2.</span> <span class="toc-text">模板中修改评论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E4%B8%BAutterances"><span class="toc-number">2.1.</span> <span class="toc-text">修改为utterances</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%83%E8%AF%95%E4%B8%AD%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA%EF%BC%8Chexo-d%E5%90%8E%E6%97%A0%E8%AF%84%E8%AE%BA%E5%87%BA%E7%8E%B0"><span class="toc-number">2.2.</span> <span class="toc-text">调试中正常显示，hexo d后无评论出现</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Github-Action%E8%87%AA%E5%8A%A8%E5%8C%96"><span class="toc-number">3.</span> <span class="toc-text">Github Action自动化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E5%90%88Obsidian%E5%AE%9E%E7%8E%B0%E5%B7%A5%E4%BD%9C%E6%B5%81"><span class="toc-number">4.</span> <span class="toc-text">结合Obsidian实现工作流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9about%E7%95%8C%E9%9D%A2"><span class="toc-number">5.</span> <span class="toc-text">修改about界面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8Eumami%E7%9A%84%E8%AE%BF%E5%AE%A2%E7%BB%9F%E8%AE%A1"><span class="toc-number">6.</span> <span class="toc-text">基于umami的访客统计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="toc-number">6.1.</span> <span class="toc-text">前期准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">6.2.</span> <span class="toc-text">创建数据库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-umami-%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">6.3.</span> <span class="toc-text">创建自己的 umami 数据库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96-SQL-%E8%AF%AD%E5%8F%A5"><span class="toc-number">6.4.</span> <span class="toc-text">初始化 SQL 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E9%BB%98%E8%AE%A4%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%BB%93%E6%9E%84"><span class="toc-number">6.5.</span> <span class="toc-text">创建默认的数据库表结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A1%AE%E8%AE%A4%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2-umami-is"><span class="toc-number">6.6.</span> <span class="toc-text">确认成功部署 umami.is</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vercel-%E9%83%A8%E7%BD%B2-umami-%E9%A1%B9%E7%9B%AE"><span class="toc-number">6.7.</span> <span class="toc-text">Vercel 部署 umami 项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E9%A1%B9%E4%B8%AD%E7%9A%84-PostgreSQL-%E9%85%8D%E7%BD%AE"><span class="toc-number">6.8.</span> <span class="toc-text">设置项中的 PostgreSQL 配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E7%BD%AE"><span class="toc-number">6.9.</span> <span class="toc-text">测试和设置</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        如何配置一个静态博客的工作流
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">AsyncX</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-05-15T23:00:00.000Z" itemprop="datePublished">2022-05-15</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/hexo/" rel="tag">hexo</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>关于博客，不妨如此理解。人总想留下某种痕迹，证明自己活过，然而事实上，99.999% 的普通人就这么被历史遗忘了——曾经是这样。我们处在信息时代的早期，同样也处在人类文明的早期。从今往后，被数字化的东西只会越来越多。而最有可能留存的，就是GitHub ，它也许是在百年尺度上存储信息并让其能被访问的<strong>唯一</strong>途径。</p>
+<hr>
+<blockquote>
+<p>记录的过程并不是学习本身，而是思考。通过记录这种形式，把自己的理解写下来促进思考，才能产生最大的价值.</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://catcoding.me/p/my-notes-taking-tools-and-experience/">yukang–我的知识管理工具和经验</a><br>
+出于此，我从Typecho再次切换回Hexo，不再用Buttterfly，采用自改的Vexo，特记录一下在网络中少数人输出的完整思路。</p>
+<h2 id="加速访问博客">加速访问博客</h2>
+<p>静态博客基于Github Pages，很多人（包括刚开始的我）都认为是因为服务器的原因导致的，静态网页的响应速度受js与css影响居多，在<a target="_blank" rel="noopener" href="https://catcoding.me/">yukang老师</a>的指导下，我从本来的配置cdn转向重指向js，css，即将相关文件存入自己服务器，或定向至jsDelivr进行解析。<br>
+<img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/image-20220514170839653.png" alt="image-20220514170839653"><br>
+<a target="_blank" rel="noopener" href="https://pagespeed.web.dev/">yukang老师提供的测试网址</a><br>
+关于资源的不统一或许具有一定的问题，后期我会将渲染文件统一存放。</p>
+<h2 id="模板中修改评论">模板中修改评论</h2>
+<p>由于vexo主题本身提供的Gitment以及其余评论的配置我并没有很好的理解，所以我选用<a target="_blank" rel="noopener" href="https://utteranc.es/">utterances</a>进行博客的评论功能，具体的配置可以查阅相关教程。</p>
+<h3 id="修改为utterances">修改为utterances</h3>
+<p>在模板文件中修改如下信息<br>
+<img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/image-20220514153924400.png" alt="image-20220514153924400"></p>
+<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- UY START --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"utterances_frame"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://utteranc.es/client.js"</span></span></span><br><span class="line"><span class="tag"><span class="attr">repo</span>=<span class="string">"A5yncX/A5yncX.github.io"</span></span></span><br><span class="line"><span class="tag"><span class="attr">issue-term</span>=<span class="string">"pathname"</span></span></span><br><span class="line"><span class="tag"><span class="attr">theme</span> = <span class="string">"github-light"</span></span></span><br><span class="line"><span class="tag"><span class="attr">crossorigin</span>=<span class="string">"anonymous"</span></span></span><br><span class="line"><span class="tag"><span class="attr">async</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- UY END --&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>我比较懒，没有改注释，只要能定位到位置就行。<br>
+<code>repo</code>为<code>name/repo名</code>，请参照官方文档进行修改。</p>
+<h3 id="调试中正常显示，hexo-d后无评论出现">调试中正常显示，hexo d后无评论出现</h3>
+<p>报错如下</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Uncaught DOMException: Failed to read the ‘localStorage’ property from ‘Window’: Access is denied for this document.</span><br></pre></td></tr></tbody></table></figure>
+<p>问题在于为了方便调试，我开启了此网页不保存cookie，只需关闭即可解决此问题。</p>
+<h2 id="Github-Action自动化">Github Action自动化</h2>
+<p>将hexo源文件上传至一个新的私有仓库</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github.com:A5yncX/hexo.git</span><br><span class="line">git pull --rebase origin master</span><br><span class="line">git add .</span><br><span class="line">git commit -m "init repo"</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></tbody></table></figure>
+<p>参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_41426117/article/details/108703295">GITHUB ACTION + HEXO 实现在线写作</a><br>
+注意添加私钥！</p>
+<h2 id="结合Obsidian实现工作流">结合Obsidian实现工作流</h2>
+<p>我的工作流本来是基于Mac的自动化实现的，但是问题出在上传和具有yaml属性的markdown文件的创建，参照yukang老师<code>Obsidian-ObsidianGit-Source仓库-Github Actions-静态页面</code>的自动化工作流方案，我采用了如下的办法：</p>
+<blockquote>
+<ol>
+<li>将部分下载的source仓库存放在我的Ob主库中</li>
+<li>使用Obsidian-Git插件自动上传</li>
+<li>Github Actions读取到我的push</li>
+<li>推送至静态页面</li>
+</ol>
+</blockquote>
+<p>为什么要这样记录呢，我本来的想法是：</p>
+<ul>
+<li>新开一个Obsidian库，分类管理。结果：发现mac的库切换，插件的配置很费事</li>
+<li>将源文件放入主Obsidian库，同时管理。结果：各种文件出现在关系图谱中</li>
+<li>新建blog仓库，通过库-actions-库-actions-库的方式管理。结果：不会写actions<br>
+工作流不应该以复杂为前提，最后我还是老老实实用git。<br>
+配置如下：</li>
+</ul>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add origin git@github.com:A5yncX/hexo.git</span><br><span class="line">git config core.sparsecheckout true</span><br><span class="line">echo '/source/_posts' &gt;&gt; .git/info/sparse-checkout</span><br><span class="line">git pull origin master</span><br></pre></td></tr></tbody></table></figure>
+<p>开启checkout，限制返回文件的目录<code>'/source/_posts'</code>，拉取同步，好处是依旧可以进行版本控制。<br>
+<img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515135110.png" alt=""></p>
+<h2 id="修改about界面">修改about界面</h2>
+<p>vexo的about页面相对于主题不是很合适，在我看来甚至有一丝花里胡哨。修改模板文件<br>
+<img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515132643.png" alt=""><br>
+将页面代码替换为pages.ejs的markdown语法展示内容。<br>
+<img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515132719.png" alt=""></p>
+<p>修改后，通过编辑文件<br>
+<img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515132509.png" alt=""><br>
+即可自由书写你的个人介绍。</p>
+<h2 id="基于umami的访客统计">基于umami的访客统计</h2>
+<p><a target="_blank" rel="noopener" href="https://cbgc.scol.com.cn/news/2049251">使用Vercel搭建umami</a><br>
+改动模板的<code>config.yml</code>添加独立页面即可<br>
+<img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515212925.png" alt=""></p>
+<hr>
+<p>防止失效的复制粘贴，侵删。</p>
+<hr>
+<p>作为一款开源解决方案，<a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 并不提供官方的托管服务，而是需要自行部署。提到部署，你可能想到需要使用自己的服务器或租用云主机。不用担心，接下来我将会介绍利用互联网上现成的无服务器解决方案，零成本、零门槛部署可靠的 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 服务。</p>
+<h3 id="前期准备">前期准备</h3>
+<p>Serverless 无服务器计算架构近年来逐渐火热，这里的无服务器并不意味着无需服务器参与计算，而是指开发者不必过多关心底层服务器的状态、性能、资源等。因为这一切由云服务商提供，并动态管理机器资源的分配。所以为了达到零成本部署的目标，我们需要选择一些免费可靠的 Serverless 服务。</p>
+<p>根据 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 官方文档 的说明，其服务需要运行在 Node.js 环境中，且需要对接到 MySQL 或者 PostgreSQL 数据库。所以，接下来我们会使用到免费可靠的 Vercel 静态站点托管服务，以及同样免费可靠的 PostgreSQL 数据库服务商 Supabase。</p>
+<p>那么正式开始之前，你需要做的第一件事是 注册一个 GitHub 帐号。为什么注册 GitHub 呢？因为我们后续要克隆 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 主仓库代码，同时通过 GitHub 帐号直接登录 Vercel 和 Supabase，从而不需要额外再注册相关平台了。</p>
+<p>注册好 GitHub 帐号之后，你需要完成 3 个步骤：</p>
+<p><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213008.png" alt=""></p>
+<p>Fork 代码仓库并登录到 Vercel 和 Supabase 访问 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 代码仓库，点击右上方 Fork 到自己的帐号。访问 Vercel 注册页面，点击使用 GitHub 登录到 Vercel。访问 Supabase 注册页面，点击使用 GitHub 登录到 Supabase。</p>
+<p>至此，准备工作大功告成，是不是非常简单。</p>
+<h3 id="创建数据库">创建数据库</h3>
+<p>我们需要先在 Supabase 的主界面中找到 New Project 按钮创建一个新的数据库。名字可以使用 umami，然后设置一个自己记得住的数据库密码。下方的 Region 区域选择 Northeast Asia（Tokyo）东京区域。Supabase 本身使用了 AWS 云服务，东京区域在大陆地区的访问速度还是比较理想的。</p>
+<p><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213016.png" alt=""></p>
+<h3 id="创建自己的-umami-数据库">创建自己的 umami 数据库</h3>
+<p>创建好之后，等待数据库初始化完成。接下来，我们需要向数据库中写入 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 所需的基础数据结构。打开 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 代码仓库，找到其预先提供的 PostgreSQL 初始化 SQL 语句 schema.postgresql.sql。</p>
+<p><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213029.png" alt=""></p>
+<h3 id="初始化-SQL-语句">初始化 SQL 语句</h3>
+<p>接下来，我们回到初始化完成的 Supabase 数据库的设置页面，找到左侧的 SQL 选项，选中默认的 Query-1 查询面板。然后，完整复制上方 schema.postgresql.sql 文件中的 SQL 语句粘贴到查询对话框中，点击 RUN 执行。</p>
+<p><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213056.png" alt=""></p>
+<h3 id="创建默认的数据库表结构">创建默认的数据库表结构</h3>
+<p>几秒后，Supabase 会返回 Success. No rows returned 的提示，此时回到 Supabase 的 Tables 面板中，你可以看到多出了 5 张数据表，这也就是 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 所需的初始化数据结构。</p>
+<p><img src="https://cbgccdn.thecover.cn/FjVxDav3UzLN-0VwC70eFa4K9zeT" alt=""></p>
+<h3 id="确认成功部署-umami-is">确认成功部署 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a></h3>
+<p>接下来，我们可以正式开始部署 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 了。打开 Vercel 主面板，点击右上角 New Project 创建一个新的项目。创建项目的页面中，会自动加载你 GitHub 帐号下方的代码仓库。还记得准备步骤 Fork 的 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 仓库吗？选中即可。</p>
+<p><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213116.png" alt=""></p>
+<h3 id="Vercel-部署-umami-项目">Vercel 部署 umami 项目</h3>
+<p>所有的设置都可以使用默认值。唯一需要自定义的是环境变量，我们需要传入相关的数据库连接参数。找到 Environment Variables 一项并展开，首先添加数据库连接的环境变量。</p>
+<p>DATABASE_URL：postgresql://username:mypassword@localhost:5432/mydb</p>
+<p>值得注意的是，上方数据库链接中的参数需要使用实际值，你需要到 Supabase 的设置页面中查看。如下图所示，如果我一开始设置的数据库密码是 123456，那么 DATABASE_URL 实际应该为：</p>
+<p>DATABASE_URL：postgresql://postgres:123456@db.vihtqhmdpnvautwcvkmh.supabase.co:5432/postgres</p>
+<p><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213126.png" alt=""></p>
+<h3 id="设置项中的-PostgreSQL-配置">设置项中的 PostgreSQL 配置</h3>
+<p>请注意，数据库链接中的密码以你在准备步骤设置的实际密码为准，其他参数以你的 Supabase 设置页面提供的为准。然后，我们还需要添加第二组环境变量 HASH_SALT，它的值可以是任意随机英文字符串，比如我使用了我的用户名 HUHUHANG，你也可以自定义其他随机字符串。</p>
+<p>HASH_SALT：任意随机英文字符串。</p>
+<p><img src="https://typecho-asyncx.oss-cn-qingdao.aliyuncs.com/20220515213136.png" alt=""></p>
+<p>添加好的 DATABASE_URL 和 HASH_SALT 环境变量</p>
+<p>两组环境变量添加完成之后的结果如上图所示。设置完成之后，点击 Deploy 部署项目。</p>
+<h3 id="测试和设置">测试和设置</h3>
+<p>至此，主要步骤已经顺利完成，你需要做的只是耐心等待项目部署完毕。完成之后，Vercel 会自动跳转到项目主页，并随机分配一个域名。点击 Visit 访问项目，umami 默认的后台登录的用户名是 admin，密码是 umami。登录之后，即可看到下方右图的界面。</p>
+<p><img src="https://cbgccdn.thecover.cn/FkZQpdJfaVO3hTY_bU-antq52Vb3" alt=""></p>
+<p>测试并登录到部署完成的 umami 后台</p>
+<p>一切大功告成，我们已经顺利部署了 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 服务。接下来，我们还可以做几件事情个性化你的 <a target="_blank" rel="noopener" href="http://umami.is">umami.is</a> 服务。</p>
+<hr>
+<p>Q：umami 后续如何升级？</p>
+<p>A：Vercel 的部署是自动触发和完成的，也就是说当 GitHub 代码仓库更新时，Vercel 会帮你自动部署上线最新版本的 umami。你可以不定期访问你 Fork 后的代码仓库，选中 Fetch upstream 从 umami 官方仓库同步最新的代码后即可自动升级。当然，你还可以从一开始直接部署官方仓库的代码，完全跟随官方版本迭代升级。</p>
+<p><img src="https://cbgccdn.thecover.cn/Fi9EnelximE3L6s5_9woPuoZmNIT" alt=""><br>
+拉取 umami 主仓库代码自动升级.</p>
+
+  </div>
+</article>
+
+
+    <div class="blog-post-comments">
+        <div id="utterances_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/tags/">Tag</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+         
+          <li><a href="/atom.xml">RSS</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.</span> <span class="toc-text">加速访问博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E6%9D%BF%E4%B8%AD%E4%BF%AE%E6%94%B9%E8%AF%84%E8%AE%BA"><span class="toc-number">2.</span> <span class="toc-text">模板中修改评论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E4%B8%BAutterances"><span class="toc-number">2.1.</span> <span class="toc-text">修改为utterances</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%83%E8%AF%95%E4%B8%AD%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA%EF%BC%8Chexo-d%E5%90%8E%E6%97%A0%E8%AF%84%E8%AE%BA%E5%87%BA%E7%8E%B0"><span class="toc-number">2.2.</span> <span class="toc-text">调试中正常显示，hexo d后无评论出现</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Github-Action%E8%87%AA%E5%8A%A8%E5%8C%96"><span class="toc-number">3.</span> <span class="toc-text">Github Action自动化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E5%90%88Obsidian%E5%AE%9E%E7%8E%B0%E5%B7%A5%E4%BD%9C%E6%B5%81"><span class="toc-number">4.</span> <span class="toc-text">结合Obsidian实现工作流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9about%E7%95%8C%E9%9D%A2"><span class="toc-number">5.</span> <span class="toc-text">修改about界面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8Eumami%E7%9A%84%E8%AE%BF%E5%AE%A2%E7%BB%9F%E8%AE%A1"><span class="toc-number">6.</span> <span class="toc-text">基于umami的访客统计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="toc-number">6.1.</span> <span class="toc-text">前期准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">6.2.</span> <span class="toc-text">创建数据库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-umami-%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">6.3.</span> <span class="toc-text">创建自己的 umami 数据库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96-SQL-%E8%AF%AD%E5%8F%A5"><span class="toc-number">6.4.</span> <span class="toc-text">初始化 SQL 语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E9%BB%98%E8%AE%A4%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E7%BB%93%E6%9E%84"><span class="toc-number">6.5.</span> <span class="toc-text">创建默认的数据库表结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A1%AE%E8%AE%A4%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2-umami-is"><span class="toc-number">6.6.</span> <span class="toc-text">确认成功部署 umami.is</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vercel-%E9%83%A8%E7%BD%B2-umami-%E9%A1%B9%E7%9B%AE"><span class="toc-number">6.7.</span> <span class="toc-text">Vercel 部署 umami 项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E9%A1%B9%E4%B8%AD%E7%9A%84-PostgreSQL-%E9%85%8D%E7%BD%AE"><span class="toc-number">6.8.</span> <span class="toc-text">设置项中的 PostgreSQL 配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E5%92%8C%E8%AE%BE%E7%BD%AE"><span class="toc-number">6.9.</span> <span class="toc-text">测试和设置</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://hi.asyncx.top/2022/05/15/2022-05-15/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&text=如何配置一个静态博客的工作流"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&is_video=false&description=如何配置一个静态博客的工作流"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=如何配置一个静态博客的工作流&body=Check out this article: https://hi.asyncx.top/2022/05/15/2022-05-15/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&title=如何配置一个静态博客的工作流"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://hi.asyncx.top/2022/05/15/2022-05-15/&name=如何配置一个静态博客的工作流&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://hi.asyncx.top/2022/05/15/2022-05-15/&t=如何配置一个静态博客的工作流"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2019-2023
+    <!-- AsyncX -->
+    <div id="busuanzi_container_site_pv" style='display:none'>| <span id="busuanzi_value_site_pv"></span> views.</div>
+
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/tags/">Tag</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/search/">Search</a></li><!--
+     --><!--
+       --><li><a href="/atom.xml">RSS</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+    <script type="text/javascript">
+      var utterances_repo = 'A5yncX/A5yncX.github.io';
+      var utterances_issue_term = 'pathname';
+      var utterances_label = 'Comment';
+      var utterances_theme = 'preferred-color-scheme';
+
+      (function(){
+          var script = document.createElement('script');
+
+          script.src = 'https://utteranc.es/client.js';
+          script.setAttribute('repo', utterances_repo);
+          script.setAttribute('issue-term', 'pathname');
+          script.setAttribute('label', utterances_label);
+          script.setAttribute('theme', utterances_theme);
+          script.setAttribute('crossorigin', 'anonymous');
+          script.async = true;
+          (document.getElementById('utterances_thread')).appendChild(script);
+      }());
+  </script>
+
+  </body>
+  <div class="starr">
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
+  </div>
+</html>
